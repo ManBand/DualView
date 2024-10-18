@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B49AE17A2CC2FFB000AA222A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49AE15B2CC2FFAF00AA222A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49AE1622CC2FFAF00AA222A;
+			remoteInfo = DualView;
+		};
+		B49AE1842CC2FFB000AA222A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49AE15B2CC2FFAF00AA222A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B49AE1622CC2FFAF00AA222A;
+			remoteInfo = DualView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B49AE1632CC2FFAF00AA222A /* DualView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DualView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49AE1792CC2FFB000AA222A /* DualViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49AE1832CC2FFB000AA222A /* DualViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DualViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B49AE18B2CC2FFB000AA222A /* Exceptions for "DualView" folder in "DualView" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B49AE1622CC2FFAF00AA222A /* DualView */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B49AE1652CC2FFAF00AA222A /* DualView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B49AE18B2CC2FFB000AA222A /* Exceptions for "DualView" folder in "DualView" target */,
+			);
+			path = DualView;
+			sourceTree = "<group>";
+		};
+		B49AE17C2CC2FFB000AA222A /* DualViewTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DualViewTests;
+			sourceTree = "<group>";
+		};
+		B49AE1862CC2FFB000AA222A /* DualViewUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DualViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B49AE1602CC2FFAF00AA222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49AE1762CC2FFB000AA222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49AE1802CC2FFB000AA222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B49AE15A2CC2FFAF00AA222A = {
+			isa = PBXGroup;
+			children = (
+				B49AE1652CC2FFAF00AA222A /* DualView */,
+				B49AE17C2CC2FFB000AA222A /* DualViewTests */,
+				B49AE1862CC2FFB000AA222A /* DualViewUITests */,
+				B49AE1642CC2FFAF00AA222A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B49AE1642CC2FFAF00AA222A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B49AE1632CC2FFAF00AA222A /* DualView.app */,
+				B49AE1792CC2FFB000AA222A /* DualViewTests.xctest */,
+				B49AE1832CC2FFB000AA222A /* DualViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B49AE1622CC2FFAF00AA222A /* DualView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49AE18C2CC2FFB000AA222A /* Build configuration list for PBXNativeTarget "DualView" */;
+			buildPhases = (
+				B49AE15F2CC2FFAF00AA222A /* Sources */,
+				B49AE1602CC2FFAF00AA222A /* Frameworks */,
+				B49AE1612CC2FFAF00AA222A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B49AE1652CC2FFAF00AA222A /* DualView */,
+			);
+			name = DualView;
+			packageProductDependencies = (
+			);
+			productName = DualView;
+			productReference = B49AE1632CC2FFAF00AA222A /* DualView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B49AE1782CC2FFB000AA222A /* DualViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49AE1912CC2FFB000AA222A /* Build configuration list for PBXNativeTarget "DualViewTests" */;
+			buildPhases = (
+				B49AE1752CC2FFB000AA222A /* Sources */,
+				B49AE1762CC2FFB000AA222A /* Frameworks */,
+				B49AE1772CC2FFB000AA222A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49AE17B2CC2FFB000AA222A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B49AE17C2CC2FFB000AA222A /* DualViewTests */,
+			);
+			name = DualViewTests;
+			packageProductDependencies = (
+			);
+			productName = DualViewTests;
+			productReference = B49AE1792CC2FFB000AA222A /* DualViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B49AE1822CC2FFB000AA222A /* DualViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49AE1942CC2FFB000AA222A /* Build configuration list for PBXNativeTarget "DualViewUITests" */;
+			buildPhases = (
+				B49AE17F2CC2FFB000AA222A /* Sources */,
+				B49AE1802CC2FFB000AA222A /* Frameworks */,
+				B49AE1812CC2FFB000AA222A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49AE1852CC2FFB000AA222A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B49AE1862CC2FFB000AA222A /* DualViewUITests */,
+			);
+			name = DualViewUITests;
+			packageProductDependencies = (
+			);
+			productName = DualViewUITests;
+			productReference = B49AE1832CC2FFB000AA222A /* DualViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B49AE15B2CC2FFAF00AA222A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B49AE1622CC2FFAF00AA222A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B49AE1782CC2FFB000AA222A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B49AE1622CC2FFAF00AA222A;
+					};
+					B49AE1822CC2FFB000AA222A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B49AE1622CC2FFAF00AA222A;
+					};
+				};
+			};
+			buildConfigurationList = B49AE15E2CC2FFAF00AA222A /* Build configuration list for PBXProject "DualView" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B49AE15A2CC2FFAF00AA222A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B49AE1642CC2FFAF00AA222A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B49AE1622CC2FFAF00AA222A /* DualView */,
+				B49AE1782CC2FFB000AA222A /* DualViewTests */,
+				B49AE1822CC2FFB000AA222A /* DualViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B49AE1612CC2FFAF00AA222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49AE1772CC2FFB000AA222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49AE1812CC2FFB000AA222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B49AE15F2CC2FFAF00AA222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49AE1752CC2FFB000AA222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49AE17F2CC2FFB000AA222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49AE17B2CC2FFB000AA222A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49AE1622CC2FFAF00AA222A /* DualView */;
+			targetProxy = B49AE17A2CC2FFB000AA222A /* PBXContainerItemProxy */;
+		};
+		B49AE1852CC2FFB000AA222A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B49AE1622CC2FFAF00AA222A /* DualView */;
+			targetProxy = B49AE1842CC2FFB000AA222A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B49AE18D2CC2FFB000AA222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQ3Y885H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DualView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ManBand.com.DualView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B49AE18E2CC2FFB000AA222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQ3Y885H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DualView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ManBand.com.DualView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B49AE18F2CC2FFB000AA222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B49AE1902CC2FFB000AA222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B49AE1922CC2FFB000AA222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQ3Y885H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ManBand.com.DualViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DualView";
+			};
+			name = Debug;
+		};
+		B49AE1932CC2FFB000AA222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQ3Y885H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ManBand.com.DualViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DualView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DualView";
+			};
+			name = Release;
+		};
+		B49AE1952CC2FFB000AA222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQ3Y885H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ManBand.com.DualViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DualView;
+			};
+			name = Debug;
+		};
+		B49AE1962CC2FFB000AA222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HQ3Y885H89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ManBand.com.DualViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DualView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B49AE15E2CC2FFAF00AA222A /* Build configuration list for PBXProject "DualView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49AE18F2CC2FFB000AA222A /* Debug */,
+				B49AE1902CC2FFB000AA222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49AE18C2CC2FFB000AA222A /* Build configuration list for PBXNativeTarget "DualView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49AE18D2CC2FFB000AA222A /* Debug */,
+				B49AE18E2CC2FFB000AA222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49AE1912CC2FFB000AA222A /* Build configuration list for PBXNativeTarget "DualViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49AE1922CC2FFB000AA222A /* Debug */,
+				B49AE1932CC2FFB000AA222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49AE1942CC2FFB000AA222A /* Build configuration list for PBXNativeTarget "DualViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49AE1952CC2FFB000AA222A /* Debug */,
+				B49AE1962CC2FFB000AA222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B49AE15B2CC2FFAF00AA222A /* Project object */;
+}
