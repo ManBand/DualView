@@ -48,16 +48,6 @@
 			path = DualView;
 			sourceTree = "<group>";
 		};
-		B49AE17C2CC2FFB000AA222A /* DualViewTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DualViewTests;
-			sourceTree = "<group>";
-		};
-		B49AE1862CC2FFB000AA222A /* DualViewUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DualViewUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				B49AE1652CC2FFAF00AA222A /* DualView */,
-				B49AE17C2CC2FFB000AA222A /* DualViewTests */,
-				B49AE1862CC2FFB000AA222A /* DualViewUITests */,
 				B49AE1642CC2FFAF00AA222A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				B49AE17B2CC2FFB000AA222A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B49AE17C2CC2FFB000AA222A /* DualViewTests */,
-			);
 			name = DualViewTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				B49AE1852CC2FFB000AA222A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B49AE1862CC2FFB000AA222A /* DualViewUITests */,
 			);
 			name = DualViewUITests;
 			packageProductDependencies = (
